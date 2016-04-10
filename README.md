@@ -13,6 +13,7 @@ You will need python and you'll need to install TO PATH
 UnnamedBot is a bot for Discord coded in Python, We will have a name for it later in Development so don't worry :D
 
 This bot was made by Blazy, Blazarr and LegitCheesecake
+<<<<<<< HEAD
 <br>
 Edited by TheTrueShell
 =======
@@ -28,3 +29,5 @@ You will need python and you'll need to install to path
 OmniBot is a bot for Discord coded in Python.
 This bot was made by Blazy, Blazarr and LegitCheesecake
 >>>>>>> 7bb944eb75fb90706b4f8d9f6e7001beb1033a49
+=======
+>>>>>>> parent of 6252816... Credits
