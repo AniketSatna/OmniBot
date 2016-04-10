@@ -24,29 +24,36 @@ async def on_command(command, ctx):
 async def on_message(message):
 	if message.content.startswith('!test'):
 		await client.send_message(message.channel, message.author.mention + ', Okay it works :D')
-		
 async def on_message(message):
-	if message.content.startswith('!help'):
-	await client.send_message(PrivateChannel + 'Here is some Commands I can do: /n !help - The command you just did')
-
-async def on_message(message):
-	if message.content.startswith('!ping'):
-		await client.send_message(message.channel, message.author.mention + ' PONG!')
-		await asynco.sleep(1)
-		await client.send_message(message.channel + 'Did you really think this command would work?')
-		await asynco.sleep(1)
-		await client.send_message(message.channel, message.author.mention + ' PONG!')
-		
-async def on_message(message):
-        if message.content.startswith('!voice')
-
+        if message.content.startswith('!cometome')
+                
 async def on_message(message):
         if message.content.startswith('!ownme')
                 global lock
                 msg = ctx.message
                 if settings.owner != "id":
-                	print("PLACEHOLDER")
-                
+
+#Enable bot for plugin use
+
+def main():
+    django.setup()  # configures logging etc.
+    logger.info('Starting up bot/plugins')
+
+    pool = MethodPool()  # pool that holds all callbacks
+    for plugin, options in settings.PLUGINS.items():
+        if not options.get('enabled', True):
+            continue
+
+        module = 'bot.plugins.%s' % plugin
+        if module in settings.INSTALLED_APPS:
+            module = '%s.plugin' % module
+        _plugin = import_module(module)
+        plugin = _plugin.Plugin(client, options)
+        pool.register(plugin)
+        logger.debug('Configured plugin %r', plugin)
+        
+
+
 client.run('email', 'password')
 
 # Not ment for public use - not done
