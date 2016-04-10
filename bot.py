@@ -25,15 +25,15 @@ async def on_command(command, ctx):
 
 @client.event
 async def on_message(message):
-	if message.content.startswith('!test'):
-		await client.send_message(message.channel, message.author.mention + ', Okay it works :D')
+        if message.content.startswith('!test'):
+                await client.send_message(message.channel, message.author.mention + ', Okay it works :D')
                 
 async def on_message(message):
-        if message.content.startswith('!ownme')
+        if message.content.startswith('!ownme'):
                 global lock
                 msg = ctx.message
                 if settings.owner != "id":
-
+                        print("DELETE")
 #Enable bot for plugin use
 
 def main():
