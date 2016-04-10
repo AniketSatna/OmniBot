@@ -32,6 +32,7 @@ async def on_message(message):
                 global lock
                 msg = ctx.message
                 if settings.owner != "id":
+                	print("PLACEHOLDER")
                 
 client.run('email', 'password')
 
