@@ -29,6 +29,7 @@ async def on_message(message):
 		await client.send_message(message.channel, message.author.mention + ', Okay it works :D')
 async def on_message(message):
         if message.content.startswith('!cometome')
+                await client.send_message(message.channel, message.author.mention + ', WIP: please dont use this command')
                 
 async def on_message(message):
         if message.content.startswith('!ownme')
