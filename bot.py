@@ -24,9 +24,22 @@ async def on_command(command, ctx):
 async def on_message(message):
 	if message.content.startswith('!test'):
 		await client.send_message(message.channel, message.author.mention + ', Okay it works :D')
+		
 async def on_message(message):
-        if message.content.startswith('!cometome')
-                
+	if message.content.startswith('!help'):
+	await client.send_message(PrivateChannel + 'Here is some Commands I can do: /n !help - The command you just did')
+
+async def on_message(message):
+	if message.content.startswith('!ping'):
+		await client.send_message(message.channel, message.author.mention + ' PONG!')
+		await asynco.sleep(1)
+		await client.send_message(message.channel + 'Did you really think this command would work?')
+		await asynco.sleep(1)
+		await client.send_message(message.channel, message.author.mention + ' PONG!')
+		
+async def on_message(message):
+        if message.content.startswith('!voice')
+
 async def on_message(message):
         if message.content.startswith('!ownme')
                 global lock

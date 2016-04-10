@@ -1,4 +1,4 @@
-=====[Name Idea Liat]=====
+=====[Name Idea List]=====
 
 FluxBot
 Atlas
