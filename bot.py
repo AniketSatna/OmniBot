@@ -56,7 +56,7 @@ def main():
         
 
 
-client.run('oliver1605@hotmail.co.uk', 'oliver101')
+client.run('Username', 'password')
 
 # Not ment for public use - not done
 # Above code is from Blazar - other than The !test command
