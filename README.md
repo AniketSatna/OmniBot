@@ -7,6 +7,5 @@ You will need python and you'll need to install to path
 
 ====================[About]==================
 
-UnnamedBot is a bot for Discord coded in Python, We will have a name for it later in Development so don't worry :D
-
+OmniBot is a bot for Discord coded in Python.
 This bot was made by Blazy, Blazarr and LegitCheesecake
