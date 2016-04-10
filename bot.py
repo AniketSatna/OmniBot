@@ -1,5 +1,6 @@
 import discord
 import asyncio
+import cogs
 import logging
 from importlib import import_module
 from cogs.utils.settings import Settings
