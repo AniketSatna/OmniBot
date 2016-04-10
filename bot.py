@@ -27,6 +27,8 @@ async def on_command(command, ctx):
 async def on_message(message):
         if message.content.startswith('!test'):
                 await client.send_message(message.channel, message.author.mention + ', Okay it works :D')
+        elif message.content.startswith('!info'):
+         await client.send_message(message.channel, message.author.mention + ' Info \nVersion: 0.0.1 \nAuthors: Blazy#2607 | LegitCheesecake#2039 | Biotic#9319 \n You can view all commands with **!commands**')
                 
 async def on_message(message):
         if message.content.startswith('!ownme'):
