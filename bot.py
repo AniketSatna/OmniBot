@@ -2,11 +2,10 @@ import discord
 import asyncio
 import logging
 from importlib import import_module
-import django
 from cogs.utils.settings import Settings
 
 from os import system
-system("title UnnamedBot")
+system("title OmniBot")
 
 client = discord.Client()
 
@@ -57,7 +56,7 @@ def main():
         
 
 
-client.run('email', 'password')
+client.run('oliver1605@hotmail.co.uk', 'oliver101')
 
 # Not ment for public use - not done
 # Above code is from Blazar - other than The !test command
