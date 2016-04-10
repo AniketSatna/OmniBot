@@ -1,9 +1,8 @@
 import discord
 import asyncio
-import cogs
 import logging
 from importlib import import_module
-from cogs.utils.settings import Settings
+
 
 from os import system
 system("title OmniBot")
@@ -57,7 +56,7 @@ def main():
         
 
 
-client.run('Username', 'password')
+client.run('oliver1605@hotmail.co.uk', 'oliver2001')
 
 # Not ment for public use - not done
 # Above code is from Blazar - other than The !test command
