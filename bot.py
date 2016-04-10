@@ -1,5 +1,8 @@
 import discord
 import asyncio
+import logging
+from importlib import import_module
+import django
 from cogs.utils.settings import Settings
 
 from os import system
