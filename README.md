@@ -2,7 +2,7 @@
 
 
 
- #### You will need python and you'll need to install TO PATH Unix Guide 
+You will need python and you'll need to install TO PATH Unix Guide 
 
 
 
