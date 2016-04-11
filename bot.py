@@ -5,7 +5,7 @@ from importlib import import_module
 
 
 from os import system
-system("title OmniBot")
+system("title OmniBot ALPHA")
 
 client = discord.Client()
 
@@ -24,11 +24,17 @@ async def on_command(command, ctx):
 
 @client.event
 async def on_message(message):
-        if message.content.startswith('!test'):
-                await client.send_message(message.channel, message.author.mention + ', Okay it works :D')
         elif message.content.startswith('!info'):
          await client.send_message(message.channel, message.author.mention + ' Info \nVersion: 0.0.1 \nAuthors: Blazy#2607 | LegitCheesecake#2039 | Biotic#9319 \n You can view all commands with **!commands**')
                 
+async def on_message(message):
+        if message.content.startswith('!test'):
+                await client.send_message(message.channel, message.author.mention + ', Okay it works :D')
+
+async def on_message(message):
+        if message.content.startswith('!help'):
+                await client.send_message(message.privatechat 'Help Test, Does it work Senpai?')
+
 async def on_message(message):
         if message.content.startswith('!ownme'):
                 global lock
