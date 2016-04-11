@@ -15,4 +15,4 @@ Oh and some help from these people:
 ====================[Support]==================
 If you need help dont be afraid to check out our discord or visit the wiki. 
 You can find our discord here: https://discord.gg/0wRxKtqwD0Zpwh2K
->>>>>>> 0b74686af8b1657db7e34af74e72b3410f39260d
+
