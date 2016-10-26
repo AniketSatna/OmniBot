@@ -5,5 +5,4 @@ You will need python and you'll need to install to path
 
 
 
- Developed by Blazy and  Blazarr 
-
+ Developed by Blazy and  Blazarr
